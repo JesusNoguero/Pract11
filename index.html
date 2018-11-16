@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    
+</head>
+<body>
+        <form action="index2.html" method="get">
+<table >
+<tr> 
+<td> Tratamiento*:
+            <input type="radio" name="radio" value="1">Sr.
+            <input type="radio" name="radio" value="2">Sra. 
+  
+  <td>Nombre*: <input type="text" name="nombre" size="30"></td>
+  <td>Apellido 1*:<input type="text" name="apellido1" size="30"></td>
+  <td>Apellido 2:<input type="text" name="apellido2" size="30"></td>
+</tr>
+
+<tr>
+    <td>Tipo DOC*:
+        <select name="menu" >
+          <option value="1">DNI</option>
+          <option value="2">NIE</option>
+          <option value="3">Pasaporte</option>
+           </select>
+        </td>
+          
+     <td>Nº Doc:
+     <input type="number" name="numero">
+     </td>
+     <td>Fecha de nacimiento:
+      <input type="date" name="fecha" size="20"></td>
+   
+ </tr>
+
+ <tr><td>País de nacimiento:
+        <select name="menu">
+           <option value="1">ESPAÑA</option>
+           <option value="2">ALEMANIA</option>
+           <option value="3">ITALIA</option>
+           <option value="4">U.K</option>
+           <option value="5">USA</option>
+        </select>
+    </td>   
+        
+        <td>Segunda nacionalidad:
+                <select name="menu">
+                  <option value="1">Ninguna</option>
+                  <option value="2">ESPAÑOL/A</option>
+                  <option value="3">Extranjero/a</option>
+                </select>
+            </td>
+                <td>País residencia fiscal*:
+                        <select name="menu">
+                            <option value="1">ESPAÑA</option>
+                            <option value="2">PORTUGAL</option>
+                            <option value="3">ALENMANIA</option>
+                      
+                        </select>
+                    </td>        
+    </tr>
+
+    <tr><td>Trabajo*:
+            <select name="menu">
+                <option value="1">Desempleado/a</option>
+                <option value="2">Ninguno/a</option>
+                <option value="3">Media jornada</option>
+            </select>
+            </td>
+        <td>Tipo de actividad
+            <select name="menu">
+                <option value="1">Tareas de hogar</option>
+                <option value="2">Estudiante</option>
+                <option value="3">Desempleado</option>
+                <option value="4">Jubilado</option>
+                <option value="5">Pensionista</option>
+            </select>
+        </td>
+        <td>Sector profesional*:
+                <select name="menu">
+                    <option value="1">No trabaja</option>
+                    <option value="2">Banca</option>
+                    <option value="3">Construcción</option>
+                    <option value="4">Energía</option>
+                    <option value="5">Industria</option>
+                    <option value="6">Recursos humanos</option>
+                    <option value="7">Servicios</option>
+                </select>
+                </td>
+        <td>Empresa*:<input type="text" name="Empresa" size="30"></td>    
+    
+</tr>
+<tr>
+        <td>Propósito de la cuenta*:
+                <select name="menu">
+                    <option value="1">Ahorro</option>
+                    <option value="2">Pago facturas</option>
+                    <option value="3">Gastos</option> 
+                </select>
+                </td>
+           <td>Origen de sus ahorros*:
+                <select name="menu">
+                     <option value="1">Nómina o Pensión</option>
+                     <option value="2">Pago facturas o deudas</option>
+                 </select>
+                 </td>  
+</tr>
+
+<tr  bgcolor="#E6E6E6">
+    <td>Tipo de vía:
+        <select name="menu">
+            <option value="1">CALLE</option>
+            <option value="2">PLAZA</option>
+            <option value="3">AVENIDAD</option>
+        </select>
+    </td>
+
+
+
+<td>Dirección*<input type="text" name="Direccion" size="50"></td>
+  <td>Número*<input type="text" name="Numero" size="30"></td>
+  <td>Piso<input type="text" name="Piso" size="30"></td>
+ 
+</tr>
+
+<tr  bgcolor="#E6E6E6">
+        <td>Urb./Pol./Otros<input type="text" name="urb" size="30"></td>
+        <td>Localidad*<input type="text" name="Localidad" size="30"></td>
+        <td>Provincia*<input type="text" name="Provincia" size="30"></td>
+        <td>Codigo Postal*<input type="number" name="Codigo postal" size="40"></td>
+</tr>
+
+<tr  bgcolor="#E6E6E6">
+        <td>Teléfono móvil*<input type="number" name="Móvil" size="30"></td>
+        <td>Teléfono particular*<input type="number" name="Particular" size="30"></td>
+        <td>Dirección de e-mail*<input type="email" name="correo" size="40"></td>
+</tr>
+
+
+</table>
+
+<hr>
+Para ofrecerle un mejor servicio nos sería útil conocer si posee en otra entidad:<br>
+<label><input type="checkbox" name="plan">Plan de pensiones</label></td>
+<label><input type="checkbox" name="Fondos">Fondos</label></td>
+<label><input type="checkbox" name="Accion">Acciones</label>
+<label><input type="checkbox" name="Hipoteca">Hipoteca</label>
+<label><input type="checkbox" name="prestamo">Préstamo</label>
+<label><input type="checkbox" name="seguro">Seguro de vida</label>
+<hr>
+Puede consultar en nuestra Web o solicitarnos toda la Información<br>
+ Precontractual de nuestros productos. Al pulsar "Continuar" está aceptando la Cláusula de Protección de datos.<br>
+
+(*) Los campos marcados con asterisco son obligatorios.
+<input type="submit" value="continuar"><br>
+</form>
+
+</body>
+</html>
